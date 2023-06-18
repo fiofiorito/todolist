@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const _ = require("lodash");
 const date = require(__dirname + "/date.js");
 const mongoose = require("mongoose");
-mongoose.connect('mongodb+srv://admin-fiorella:DBtest1234@cluster0.jqucchl.mongodb.net/todolistDB');
+mongoose.connect('mongodb+srv://admin-fiorella:DBtest1234@cluster1.tf0bqen.mongodb.net/todolistDB');
 
 const app = express();
 
